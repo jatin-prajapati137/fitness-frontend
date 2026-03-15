@@ -51,7 +51,7 @@ const LoginPage = ({ onLogin }) => {
         <Button
           variant='contained'
           size='large'
-          onClick={onLogin}
+          onClick={() => onLogin()}
           sx={{ px: 4, py: 1.5 }}
         >
           Log in
